@@ -2,7 +2,7 @@ Install Cascadia Nerd Font (going to nerdfonts site)
  - this should probably be automated (huahuaa)
 
 Tmux:
-- run <prefix> + I
+- run < prefix > + I
 
 GCM:
 - gpg --gen-key
