@@ -1,4 +1,0 @@
-Install Cascadia Nerd Font
-Tmux:
-- run <prefix> + I
-
