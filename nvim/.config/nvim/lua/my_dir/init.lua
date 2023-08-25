@@ -1,2 +1,3 @@
-require("my_dir.remap")
 require("my_dir.set")
+require("my_dir.remap")
+
