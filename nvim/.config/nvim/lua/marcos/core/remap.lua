@@ -26,7 +26,7 @@ vim.keymap.set("x", "p", "\"_dP")
 
 
 -- Copy contents to system clipboard. It may be failing. Try vim.opt.clipboard=unnamed
--- vim.opt.clipboard:append{'unnamed', 'unnamedplus'}
+vim.opt.clipboard:append{'unnamed', 'unnamedplus'}
 vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")

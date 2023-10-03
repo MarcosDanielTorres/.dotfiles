@@ -15,6 +15,9 @@ require("lazy").setup({
     { import = "marcos.plugins" },
     { import = "marcos.plugins.lsp" },
 }, {
+    install = {
+        colorscheme = {"nightfly"},
+    },
     checker = {
         enabled = true,
         notify = false,
@@ -23,4 +26,3 @@ require("lazy").setup({
         notify = false
     },
 })
-print("estoy en lazy")

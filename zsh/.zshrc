@@ -103,6 +103,8 @@ source ~/.zsh_profile
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+alias nconf="cd ~/.config/nvim/"
 alias ll="ls -alF"
 alias vim="nvim"
 alias vi="nvim"
