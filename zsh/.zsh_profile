@@ -1,2 +1,4 @@
 export GCM_CREDENTIAL_STORE=gpg
 bindkey -s ^f "tmux-sessionizer\n"
+
+bindkey -s ^x "tmux kill-pane\n"

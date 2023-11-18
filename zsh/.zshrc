@@ -110,6 +110,7 @@ alias vim="nvim"
 alias vi="nvim"
 alias c="clear"
 
+
 command -v fzf >/dev/null 2>&1 && { 
 	source <(kubectl completion zsh | sed 's#${requestComp} 2>/dev/null#${requestComp} 2>/dev/null | head -n -1 | fzf  --multi=0 #g')
 }
